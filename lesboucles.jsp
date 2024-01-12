@@ -66,10 +66,10 @@
         for (int j = 1; j <= cpt - i; j++) {
             out.print("&nbsp;&nbsp;");
         }
-        for (int z = 1; z <= i; z++) {
+        for (int k = 1; k <= i; k++) {
             out.print("*");
         }
-        out.println("<br>");
+     
     }
     %>
 </p>
