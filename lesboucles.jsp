@@ -30,8 +30,8 @@
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>*****</br>*****</br>*****</br>*****</br>*****</p>
 <%
-    for(int i = 0; i < valeur; i++){
-       for(int j = 0; j < valeur; j++){
+    for(int i = 0; i < cpt; i++){
+       for(int j = 0; j < cpt; j++){
           out.print("*");
        }
        %></br><%
