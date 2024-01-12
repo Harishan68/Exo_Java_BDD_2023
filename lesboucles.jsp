@@ -49,13 +49,32 @@
 
 <h2>Exercice 3 : Triangle rectangle inversé</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
-<p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>*****</br>****</br>***</br>**</br>*</p>
+<%
+    for (int i = cpt; i >= 1; i--) {           
+            for (int j = 1; j <= i; j++) {     
+                out.print("*");
+       }
+       %></br><%
+    }
+%>
 
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
-<p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</br>&nbsp;&nbsp;&nbsp;&nbsp;***</br>&nbsp;&nbsp;****</br>*****</p>
+<%
+     for (int i = 1; i <= cpt; i++) {           
+            for (int j = 1; j <= cpt-i; j++) {     
+                out.print(" ");
+            }
+
+            for (int k = 1; k <= i; k++) {           
+                out.print("*");
+            }
+
+       }
+       %></br><%
+    }
+%>
+
 
 <h2>Exercice 5 : Triangle isocele</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
