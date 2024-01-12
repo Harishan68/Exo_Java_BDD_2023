@@ -64,7 +64,7 @@
     <%
     for (int i = 1; i <= cpt; i++) {            
             for (int j = 1; j <= cpt-i; j++) {     
-                out.print("%nbsp");
+                out.print("&nbsp;&nbsp");
             }
 
             for (int k = 1; k <= i; k++) {             
